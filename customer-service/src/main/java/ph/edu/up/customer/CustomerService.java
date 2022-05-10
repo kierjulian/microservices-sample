@@ -1,9 +1,9 @@
-package ph.edu.up.customer.service;
+package ph.edu.up.customer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ph.edu.up.customer.model.Customer;
-import ph.edu.up.customer.repository.CustomerRepository;
+import ph.edu.up.customer.Customer;
+import ph.edu.up.customer.CustomerRepository;
 
 import java.util.List;
 

@@ -1,10 +1,8 @@
-package ph.edu.up.customer.controller;
+package ph.edu.up.customer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ph.edu.up.customer.model.Customer;
-import ph.edu.up.customer.service.CustomerService;
 
 import java.util.List;
 

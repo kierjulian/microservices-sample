@@ -1,4 +1,4 @@
-package ph.edu.up.customer.model;
+package ph.edu.up.customer;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

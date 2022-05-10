@@ -1,7 +1,7 @@
-package ph.edu.up.customer.repository;
+package ph.edu.up.customer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ph.edu.up.customer.model.Customer;
+import ph.edu.up.customer.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }
