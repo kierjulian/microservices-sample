@@ -23,7 +23,7 @@ public class CustomerService {
     public void registerCustomer(Customer customer) {
         this.customerRepository.saveAndFlush(customer);
         Boolean isFraudster = restTemplate.getForObject(
-                "http://localhost:8083/api/v1/fraud-check/{customerId}",
+                "http://FRAUD-SERVICE/api/v1/fraud-check/{customerId}",
                 Boolean.class,
                 customer.getId()
         );
